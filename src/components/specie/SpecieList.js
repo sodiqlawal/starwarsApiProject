@@ -30,7 +30,7 @@ const SpecieList = ({ species  }) => {
 
 const Display = ({ name, classification, designation, skin_colors, image }) => {
 	return (
-		<div className='tc dib br3 be3 pa2 w-25 ma2 grow bw2 specie'>
+		<div className='tc dib br3 be3 pa2 ma2 grow bw2 my3 specie'>
 			<img alt='' src={require(`../../starwars/${image}`)}
 			style={{ width: '300px', height: '200px'}}
 			className='br3 grow bw2'

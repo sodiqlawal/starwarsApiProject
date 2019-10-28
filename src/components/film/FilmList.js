@@ -27,7 +27,7 @@ const FilmList = ({ films }) => {
 
 const Display = ({ title, director, producer, release_date, image }) => {
 	return (
-		<div className='tc dib br3 be3 pa2 w-25 ma2 grow bw2 film'>
+		<div className='tc dib br3 be3 pa2 ma2 grow bw2 my-3 film'>
 			<img alt='' src={require(`../../starwars/${image}`)}
 			style={{ width: '300px', height: '200px'}}
 			className='br3 grow bw2'

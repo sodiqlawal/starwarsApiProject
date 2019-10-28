@@ -30,7 +30,7 @@ const PlanetList = ({ planets  }) => {
 
 const Display = ({ terrain, name, diameter, image }) => {
 	return (
-		<div className='tc bg-light-grey white dib br3 be3 pa2 w-25 ma2 grow bw2 b--gold planet shadow-5 '>
+		<div className='tc bg-light-grey white dib br3 be3 pa2 ma2 grow bw2 b--gold my3 planet shadow-5 '>
 			<img alt='' src={require(`../../starwars/${image}`)}
 			style={{ width: '300px', height: '200px'}}
 			className='br3 grow bw2 shadow-5'
